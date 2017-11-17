@@ -1,0 +1,210 @@
+/*universal styling*/
+html {
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+a,
+p {
+  font-family:'Catamaran', Arial, sans-serif;
+  color: #575757;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+h3 {
+  font-size:1.2rem;
+  font-weight: 700;
+}
+p {
+  font-size: 0.9rem;
+}
+/*header*/
+header {
+  display: flex;
+  height: 4rem;
+  /*position: fixed;
+  top: 0;
+  z-index: 5;*/
+  background-color: rgb(255,255,255);
+  width: 100%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1.5rem;
+  font-size: 1.5rem;
+}
+#bold{
+  font-weight: 700;
+}
+#light {
+  color: #8B8B8B;
+}
+nav {
+  display: flex;
+  align-items: center;
+  margin: auto 0.5rem auto auto;
+}
+nav ul {
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+/*banner*/
+.banner {
+  display: flex;
+  position: relative;
+  /*top: 4rem;*/
+  background-color: #EEEEEE;
+  padding: 2rem 1.5rem;
+}
+.banner .imgcontainer {
+  width: 60%;
+  max-height: 30rem;
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
+.banner .imgcontainer img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.bannercontent {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 25%;
+}
+.bannercontent h1 {
+  padding-bottom: 1rem;
+}
+.bannercontent h2 {
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.bannercontent a {
+  display: block;
+  background-color: #575757;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.bannercontent a:hover {
+  background-color: #8B8B8B;
+}
+/*information section*/
+.info {
+  display: flex;
+  padding: 2rem 0rem 2rem 1.5rem;
+}
+.quote {
+  width: 60%;
+  margin-right: 1.5rem;
+}
+.quote .imgcontainer {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+}
+.quote .imgcontainer img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.quote h1 {
+  padding: 2rem 0rem 1.5rem 0rem;
+}
+.quote p {
+  line-height: 1.5;
+}
+.quote #credit {
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 2rem 0rem;
+}
+.moreinfo {
+  width: 40%;
+}
+.moreinfo .child {
+  display: flex;
+  padding: 1rem;
+  border: 0.5px solid #8B8B8B;
+}
+.moreinfo .child:hover {
+  background-color: #EEEEEE;
+}
+.moreinfo .child .imgcontainer {
+  width: 35%;
+  height: auto;
+  overflow: hidden;
+  display: block;
+}
+.moreinfo .child .imgcontainer img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.moreinfo .child .description {
+  margin: auto 1rem;
+}
+.moreinfo .child .description h3 {
+  padding-bottom: 0.5rem;
+}
+.moreinfo .child a {
+  text-decoration: none;
+  color: #4092C9;
+  font-size: 0.9rem;
+}
+
+/*start learning section*/
+.startlearning {
+  background-color: #EEEEEE;
+}
+.startlearning h1 {
+  padding: 2rem 0rem;
+  text-align: center;
+}
+.courses {
+  display: flex;
+  padding: 0 4.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+.courses .child {
+  max-width: 30%;
+  margin: 1rem;
+}
+.courses .child .imgcontainer {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.courses .child img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.courses .child .description {
+  background-color: #FFFFFF;
+  min-height: 8rem;
+}
+.courses .child .description h3 {
+  padding: 1rem 0 1rem 1rem;
+}
+.courses .child .description p {
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+#details {
+  padding: 0 0 1.5rem 1rem;
+  line-height: 1.2rem;
+}
