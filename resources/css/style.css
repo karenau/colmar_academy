@@ -21,6 +21,17 @@ h3 {
 p {
   font-size: 1rem;
 }
+@media only screen and (max-width:480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
 /*header*/
 header {
   display: flex;
@@ -122,7 +133,7 @@ header .mobile {
   background-color: #8B8B8B;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
   .banner {
     display: block;
     padding: 0rem;
@@ -240,7 +251,10 @@ header .mobile {
   }
   .moreinfo .child .description {
     margin: 1rem;
-    width: 100%;
+    width: auto;
+  }
+  .moreinfo .child a {
+    font-size: 0.7rem;
   }
 }
 
@@ -372,6 +386,7 @@ header .mobile {
 .thesisexamples .child .description h3 {
   padding-bottom: 0.5rem;
 }
+
 @media only screen and (max-width: 480px) {
   .thesisexamples,
   .videosection .description {
@@ -393,6 +408,6 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-nav a{
+nav a {
   font-size: 0.9rem;
 }
